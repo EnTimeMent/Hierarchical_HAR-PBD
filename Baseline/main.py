@@ -1,5 +1,7 @@
-# Code Author: Guanting Cen, Chongyang Wang (My PhD was supported by UCL Overseas Research Scholarship and Graduate Research Scholarship, and partially by the EU Future and Emerging Technologies (FET) Proactive Programme H2020-EU.1.2.2 (Grant agreement 824160; EnTimeMent).
-# The code is created on 01/12/2021
+# Code Author: Guanting Cen, Chongyang Wang (My PhD was supported by UCL Overseas Research Scholarship and Graduate Research Scholarship, 
+# and partially by the EU Future and Emerging Technologies (FET) Proactive Programme H2020-EU.1.2.2 (Grant agreement 824160; EnTimeMent).
+
+# Revision Date: 26 12 2021
 
 
 import numpy as np
@@ -30,7 +32,6 @@ from keras.utils.np_utils import *
 from keras.models import load_model
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score,accuracy_score
 from sklearn import metrics
-import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import utils
