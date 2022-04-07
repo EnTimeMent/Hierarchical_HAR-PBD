@@ -8,7 +8,7 @@ Each file contains 3 py files.
 - main.py is the code for data pre-processing and main functions including model training. 
 - utils.py  is the code tool functions.
 
-
+## Model Description
 - Baselinde model is the Hierarchical HAR_PBD model only utilize MoCap data. 
 - Early Fusion model fuse MoCap and EMG in the early stage and build a new graph including 26 nodes.
 - Late Fusion model fuse MoCap and EMG in the prediction level, MoCap and EMG are built as graph respectively and sent to each GCN network.
